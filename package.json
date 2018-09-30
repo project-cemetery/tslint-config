@@ -1,0 +1,43 @@
+{
+  "name": "@solid-soda/tslint-config",
+  "description": "TSLint config for Solid Soda team",
+  "version": "1.0.0",
+  "author": "Vladimir Golotin (https://github.com/Uncleseneca)",
+  "contributors": [
+    "progre (https://github.com/progre)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solid-soda/tslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solid-soda/tslint-config/issues"
+  },
+  "keywords": [
+    "tslint",
+    "typescript",
+    "tslintconfig",
+    "config",
+    "soda",
+    "solid-soda",
+    "styleguide"
+  ],
+  "dependencies": {
+    "tslint-consistent-codestyle": "^1.13.3",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-microsoft-contrib": "~5.2.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "homepage": "https://github.com/solid-soda/tslint-config/#readme",
+  "license": "MIT",
+  "main": "tslint.js",
+  "peerDependencies": {
+    "tslint": "^5.8.0"
+  },
+  "engines": {
+    "node": ">= 6"
+  }
+}
