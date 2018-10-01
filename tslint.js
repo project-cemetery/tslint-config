@@ -10,6 +10,7 @@ module.exports = {
   rules: {
     'prefer-const': true,
     'no-var-keyword': true,
+    'no-implicit-dependencies': false,
     'no-var-requires': false,
     'interface-name': [true, 'never-prefix'],
     'object-literal-shorthand': true,
@@ -17,6 +18,8 @@ module.exports = {
     'object-literal-key-quotes': [true, 'as-needed'],
     'prefer-array-literal': true,
     quotemark: [true, 'single', 'jsx-double'],
+    'missing-jsdoc': false,
+    typedef: false,
     'prefer-template': true,
     'no-eval': true,
     'no-function-constructor-with-string-args': true,
@@ -91,5 +94,6 @@ module.exports = {
     'class-name': true,
     'no-this-assignment': [true, 'allow-destructuring'],
     'import-name': true,
+    'no-default-export': false,
   },
 };
