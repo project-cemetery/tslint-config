@@ -1,25 +1,22 @@
 const path = require('path');
 
 module.exports = {
-  rulesDirectory: [
-    path.join(
-      path.dirname(require.resolve('tslint-consistent-codestyle')),
-      './'
-    ),
-    path.join(
-      path.dirname(require.resolve('tslint-eslint-rules')),
-      'dist/rules'
-    ),
-    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
+  extends: [
+    'tslint:recommended',
+    'tslint-consistent-codestyle',
+    'tslint-microsoft-contrib',
+    'tslint-eslint-rules',
   ],
   rules: {
     'prefer-const': true,
     'no-var-keyword': true,
+    'no-var-requires': false,
+    'interface-name': [true, 'never-prefix'],
     'object-literal-shorthand': true,
     'object-shorthand-properties-first': true,
     'object-literal-key-quotes': [true, 'as-needed'],
     'prefer-array-literal': true,
-    quotemark: [true, 'single', 'avoid-escape', 'avoid-template', 'jsx-double'],
+    quotemark: [true, 'single', 'jsx-double'],
     'prefer-template': true,
     'no-eval': true,
     'no-function-constructor-with-string-args': true,
@@ -50,9 +47,15 @@ module.exports = {
       'check-branch',
       'check-decl',
       'check-operator',
-      'check-preblock',
+      'check-module',
       'check-separator',
+      'check-rest-spread',
+      'check-type',
+      'check-typecast',
+      'check-type-operator',
+      'check-preblock',
     ],
+    'object-literal-sort-keys': false,
     eofline: true,
     'space-in-parens': [true, 'never'],
     'array-bracket-spacing': [true, 'never'],

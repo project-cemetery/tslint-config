@@ -1,3 +1,7 @@
+# 2.0.0 / 2018-10-01
+
+- Added rules, replaced rulesDirectory with extends
+
 # 1.0.0 / 2018-09-30
 
 - Initial commmit

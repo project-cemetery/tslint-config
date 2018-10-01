@@ -1,7 +1,7 @@
 class SampleClass {
-  member: {}
+  public member: {}
 
-  method() {
+  public method() {
     this.member = {}
     const shorthand = 1
     const isValid: boolean = null
@@ -45,7 +45,7 @@ function rule15_3(isValid: boolean, name: string, collection: Object[]) {
   }
 }
 
-function rule15_7_bad(a: Object, b: Object, c: Object) {
+function rule15_7_bad(a: Object, b: Object, c: Object): void {
   const foo = a ? a : b
   const bar = c ? true : false
   const baz = c ? false : true
@@ -59,10 +59,14 @@ function rule15_7_good(a: Object, b: Object, c: Object) {
 
 function rule16_1(test: boolean) {
   // bad
-  if (test) return false
+  if (test) {
+    return false
+  }
 
   // good
-  if (test) return false
+  if (test) {
+    return false
+  }
 
   // good
   if (test) {
