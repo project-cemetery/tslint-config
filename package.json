@@ -3,9 +3,6 @@
   "description": "TSLint config for Solid Soda team",
   "version": "2.2.0",
   "author": "Vladimir Golotin (https://github.com/Uncleseneca)",
-  "contributors": [
-    "progre (https://github.com/progre)"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/solid-soda/tslint-config.git"
@@ -23,9 +20,7 @@
     "styleguide"
   ],
   "dependencies": {
-    "tslint-consistent-codestyle": "^1.13.3",
-    "tslint-eslint-rules": "^5.4.0",
-    "tslint-microsoft-contrib": "~5.1"
+    "tslint-eslint-rules": "^5.4.0"
   },
   "devDependencies": {
     "tslint": "^5.11.0",

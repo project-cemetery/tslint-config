@@ -1,6 +1,6 @@
 # @solid-soda/tslint-config
 
-This package provides Solid Soda's base JS tslint.js as an extensible shared config. It's based on Airbnb's [tslint-config-airbnb](https://github.com/progre/tslint-config-airbnb) config.
+This package provides Solid Soda's base JS tslint.js as an extensible shared config.
 
 ## Installation
 

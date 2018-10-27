@@ -1,3 +1,7 @@
+# 2.3.0 / 2018-10-27
+
+- Added tslint-eslint-rules
+
 # 2.2.0 / 2018-10-27
 
 - Replaced rules
