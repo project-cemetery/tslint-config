@@ -1,3 +1,7 @@
+# 2.2.0 / 2018-10-27
+
+- Replaced rules
+
 # 2.1.0 / 2018-10-01
 
 - Added rules, replaced rulesDirectory with extends
