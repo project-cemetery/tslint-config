@@ -1,3 +1,7 @@
+# 2.4.0 / 2018-10-27
+
+- Added tslint.json to main in package.json
+
 # 2.3.0 / 2018-10-27
 
 - Added tslint-eslint-rules
