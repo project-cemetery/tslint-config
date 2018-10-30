@@ -1,7 +1,7 @@
 {
   "name": "@solid-soda/tslint-config",
   "description": "TSLint config for Solid Soda team",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "author": "Vladimir Golotin (https://github.com/Uncleseneca)",
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
     "styleguide"
   ],
   "dependencies": {
-    "tslint-eslint-rules": "^5.4.0"
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-origin-ordered-imports-rule": "jens-duttke/tslint-origin-ordered-imports-rule"
   },
   "devDependencies": {
     "tslint": "^5.11.0",

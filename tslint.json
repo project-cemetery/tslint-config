@@ -43,9 +43,14 @@
       "check-type-operator",
       "check-preblock"
     ],
-    "object-literal-sort-keys": false
+    "object-literal-sort-keys": false,
+    "origin-ordered-imports": [
+      true,
+      "one-blank-line"
+    ]
   },
   "rulesDirectory": [
-    "../../tslint-eslint-rules/dist/rules"
+    "../../tslint-eslint-rules/dist/rules",
+    "../../tslint-origin-ordered-imports-rule/dist"
   ]
 }

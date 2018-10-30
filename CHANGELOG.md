@@ -1,3 +1,7 @@
+# 2.5.1 / 2018-10-30
+
+- Added TSLint Origin Ordered Imports Rule
+
 # 2.5.0 / 2018-10-27
 
 - Fixed custom rules location
