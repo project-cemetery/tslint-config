@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.5.3"></a>
+## [2.5.3](https://github.com/solid-soda/tslint-config/compare/v2.5.2...v2.5.3) (2019-01-18)
+
+
+### Bug Fixes
+
+* remove unused rules ([beb5d02](https://github.com/solid-soda/tslint-config/commit/beb5d02))
+
+
+
 <a name="2.5.2"></a>
 ## 2.5.2 (2019-01-18)
 
