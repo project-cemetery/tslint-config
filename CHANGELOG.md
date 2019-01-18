@@ -1,3 +1,17 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="2.5.2"></a>
+## 2.5.2 (2019-01-18)
+
+
+### Bug Fixes
+
+* remove conflicte rules ([ca3c297](https://github.com/solid-soda/tslint-config/commit/ca3c297))
+
+
+
 # 2.5.1 / 2018-10-30
 
 - Added TSLint Origin Ordered Imports Rule

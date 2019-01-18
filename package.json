@@ -1,7 +1,7 @@
 {
   "name": "@solid-soda/tslint-config",
   "description": "TSLint config for Solid Soda team",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "author": "Vladimir Golotin (https://github.com/Uncleseneca)",
   "repository": {
     "type": "git",
