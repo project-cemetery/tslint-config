@@ -23,8 +23,7 @@
     "styleguide"
   ],
   "dependencies": {
-    "tslint-config-prettier": "^1.17.0",
-    "tslint-eslint-rules": "^5.4.0"
+    "tslint-config-prettier": "^1.17.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.3.2",

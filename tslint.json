@@ -1,11 +1,9 @@
 {
   "defaultSeverity": "error",
   "extends": ["tslint:recommended", "tslint-config-prettier"],
-  "jsRules": {},
   "rules": {
-    "ter-indent": [true, 2],
     "semicolon": [true, "never"],
-    "quotemark": [true, "single"],
+    "quotemark": [true, "single", "jsx-double"],
     "interface-name": [true, "never-prefix"],
     "variable-name": false,
     "trailing-comma": [
@@ -33,6 +31,5 @@
     "no-submodule-imports": false,
     "no-implicit-dependencies": false,
     "no-object-literal-type-assertion": false
-  },
-  "rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"]
+  }
 }
